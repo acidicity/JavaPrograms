@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cls {
+public class Arrange {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -31,5 +31,7 @@ public class cls {
         mid = (a + b + c) - (max + min);
 
         System.out.println(min + ", " + mid + ", " + max);
+
+        sc.close();
     }
 }

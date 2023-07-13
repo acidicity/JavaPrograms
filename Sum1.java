@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Class {
+public class Sum1 {
     int n;
 
     public void input() {
@@ -8,6 +8,8 @@ public class Class {
 
         System.out.println("Enter the no. of terms:");
         this.n = sc.nextInt();
+
+        sc.close();
     }
 
     public double sum() {
@@ -30,7 +32,7 @@ public class Class {
     }
 
     public static void main(String[] args) {
-        Class obj = new Class();
+        Sum1 obj = new Sum1();
 
         obj.input();
         double sum = obj.sum();

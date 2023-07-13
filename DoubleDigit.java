@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cls2 {
+public class DoubleDigit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

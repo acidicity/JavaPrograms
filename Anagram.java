@@ -41,5 +41,7 @@ public class Anagram {
         if (flag == true)
             System.out.println("Yes, the two words are anagram");
 
+        sc.close();
+
     }
 }

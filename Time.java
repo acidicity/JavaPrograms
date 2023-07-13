@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class time {
+public class Time {
 
     int hr, min, sec;
 
-    public time() {
+    public Time() {
         hr = 0;
         min = 0;
         sec = 0;
@@ -17,6 +17,8 @@ public class time {
         hr = sc.nextInt();
         min = sc.nextInt();
         sec = sc.nextInt();
+
+        sc.close();
     }
 
     public void convert() {
@@ -28,7 +30,7 @@ public class time {
     }
 
     public static void main(String[] args) {
-        time obj = new time();
+        Time obj = new Time();
 
         obj.input();
         obj.convert();

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exam {
+public class Exam {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -22,6 +22,8 @@ public class exam {
             }
 
             System.out.println(i + ": " + present);
+
+            sc.close();
         }
     }
 }

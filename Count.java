@@ -28,5 +28,7 @@ public class Count {
         System.out.println("No. of lowercase characters: " + lower);
         System.out.println("No. of uppercase characters: " + upper);
         System.out.println("New String: " + result);
+
+        sc.close();
     }
 }

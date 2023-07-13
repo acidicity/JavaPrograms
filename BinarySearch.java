@@ -35,5 +35,7 @@ public class BinarySearch {
 
         if (!flag)
             System.out.println("Search unsuccessful");
+
+        sc.close();
     }
 }

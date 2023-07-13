@@ -41,5 +41,7 @@ public class Marks {
         System.out.println("Physics: " + physum / 3.0);
         System.out.println("Chemistry: " + chemsum / 3.0);
         System.out.println("Biology: " + biosum / 3.0);
+
+        sc.close();
     }
 }

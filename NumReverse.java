@@ -19,5 +19,7 @@ public class NumReverse {
 
         System.out.println("Original: " + n);
         System.out.println("Reverse: " + reverse);
+
+        sc.close();
     }
 }

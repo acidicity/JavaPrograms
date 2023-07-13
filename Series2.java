@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class series {
+public class Series2 {
 
     int n;
     double sum;
 
-    public series(int no, double s) {
+    public Series2(int no, double s) {
         n = no;
         sum = s;
     }
@@ -15,6 +15,8 @@ public class series {
 
         System.out.println("Enter the no. of terms");
         n = sc.nextInt();
+
+        sc.close();
     }
 
     public void calculate() {
@@ -30,7 +32,7 @@ public class series {
     }
 
     public static void main(String[] args) {
-        series obj = new series(0, 0.0);
+        Series2 obj = new Series2(0, 0.0);
 
         obj.input();
         obj.calculate();

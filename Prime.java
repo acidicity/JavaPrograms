@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cls4 {
+public class Prime {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,5 +17,7 @@ public class cls4 {
                 System.out.println(i);
             }
         }
+
+        sc.close();
     }
 }

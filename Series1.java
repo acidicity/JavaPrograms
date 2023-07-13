@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Series {
+public class Series1 {
 
     int n;
 
@@ -35,7 +35,7 @@ public class Series {
     }
 
     public static void main(String[] args) {
-        Series s = new Series();
+        Series1 s = new Series1();
 
         s.input();
         double s_sum = s.sum();

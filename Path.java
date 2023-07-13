@@ -30,5 +30,7 @@ public class Path {
         System.out.println("Path:\t" + location);
         System.out.println("File Name:\t" + name);
         System.out.println("Extension:\t" + extension);
+
+        sc.close();
     }
 }

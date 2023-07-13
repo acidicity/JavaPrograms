@@ -27,5 +27,7 @@ public class Reverse {
         }
 
         System.out.println("Result: " + result.trim());
+
+        sc.close();
     }
 }

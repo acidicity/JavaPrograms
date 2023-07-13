@@ -21,5 +21,7 @@ public class Initial {
                 temp = "";
             }
         }
+
+        sc.close();
     }
 }

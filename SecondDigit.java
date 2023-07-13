@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cls7 {
+public class SecondDigit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -14,5 +14,7 @@ public class cls7 {
             System.out.println("Yes, the second digit is zero");
         else
             System.out.println("No, the second digit is not zero");
+
+        sc.close();
     }
 }

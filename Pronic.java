@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cls3 {
+public class Pronic {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -21,5 +21,7 @@ public class cls3 {
         if (!flag) {
             System.out.println("No, the no. is not pronic");
         }
+
+        sc.close();
     }
 }

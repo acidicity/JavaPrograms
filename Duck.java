@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cls6 {
+public class Duck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -22,5 +22,7 @@ public class cls6 {
         if (!flag) {
             System.out.println("No, the no. is not duck");
         }
+
+        sc.close();
     }
 }

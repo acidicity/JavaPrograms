@@ -30,5 +30,7 @@ public class VowelRemover {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

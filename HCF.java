@@ -28,5 +28,7 @@ public class HCF {
 
         HCF obj = new HCF();
         obj.calculate(a, b);
+
+        sc.close();
     }
 }
